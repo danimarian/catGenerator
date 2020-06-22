@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+}
+button {
+  display: inline-block;
+  margin-bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  padding: 6px 12px;
+  font-size: 1.4rem;
+  border-radius: 3px;
+  text-decoration: none;
+  user-select: none;
+}
+.container {   
+    width: 50%;
+    height: 100%;
+    margin: 0 auto; /*center the container in the middle of page vertically */
+    text-align: center;
+}
+.flex-box-container {
+    display: flex; /*this acctivates a div to become a div flex box and anything we put insite of it it becomes a flex item*/
+    flex-wrap: wrap; /*in this case when the imgs are going to cross over the container size those are going on the new line*/
+    padding: 10px;
+    justify-content: space-around;
+}
+.flex-box-container img {
+    width: 200px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+}
